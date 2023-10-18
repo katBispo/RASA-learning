@@ -1,0 +1,76 @@
+version: "3.1"
+
+nlu:
+- intent: saudacao
+  examples: |
+    - oi
+    - ola
+    - ajuda
+    - duvida
+    - bom dia
+    - boa tarde
+    - ajuda
+    - ei
+    - boa noite
+
+- intent: info_ecoponto_horario
+  examples: |
+    - horário ecoponto
+    - funcionamento ecoponto
+    - ecoponto está aberto?
+    - ecoponto está fechado?
+    - que horas abre o ecoponto?
+    - que horas fecha o ecoponto?
+
+- intent: info_ecoponto_descarte_recebido
+  examples: |
+    - oq o ecoponto recebe?
+    - ecoponto recebe entulho?
+    - ecoponto recebe
+    - ecoponto aceita
+
+- intent: tchau
+  examples: |
+    - tchau
+    - encerrar
+
+- intent: deny
+  examples: |
+   - Não
+
+- intent: bot_challenge
+  examples: |
+    - voce eh um robo?
+    - voce eh humano?
+    - eu estou falando com um robo?
+    - eu estou falando com um humano?
+
+- intent: info_oq_coleta_recebe
+  examples: |
+    - oque a coleta seletiva recebe
+    - coleta recebe
+    - lixo que a coleta busca
+    - material que a coleta leva
+
+- intent: info_quem_solicita_coleta
+  examples: |
+    - quem pode solicitar coleta
+    - coleta recebe
+    - solicitar coleta
+    - posso solicitar a coleta
+
+- intent: info_quantidade_coleta_recebe
+  examples: |
+    - quantidade de material 
+    - quantos sacos a coleta recebe
+    - como entregar o lixo para a coleta
+
+- intent: info_prazo_coleta
+  examples: |
+    - quanto tempo demora coleta vir 
+    - quando a coleta vem
+    - qual o prazo da coleta
+    - qual dia a coleta vem buscar
+  
+
+

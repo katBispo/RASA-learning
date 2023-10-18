@@ -1,0 +1,57 @@
+version: "3.1"
+
+stories:
+
+
+- story: cumprimentos
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+
+- story: ecoponto
+  steps:
+  - intent: info_ecoponto_horario
+  - action: utter_info_ecoponto_horario
+  - action: utter_algo_mais
+
+- story: ecoponto_descarte
+  steps:
+  - intent: info_ecoponto_descarte_recebido
+  - action: utter_info_ecoponto_descarte_recebido
+  - action: utter_algo_mais
+
+- story: ecoponto_horario
+  steps:
+  - intent: info_ecoponto_horario
+  - action: utter_info_ecoponto_horario
+  - action: utter_algo_mais
+
+- story: ecoponto_horario
+  steps:
+  - intent: info_ecoponto_horario
+  - action: utter_info_ecoponto_horario
+  - action: utter_algo_mais
+
+- story: coleta_recebe
+  steps:
+  - intent: info_oq_coleta_recebe
+  - action: utter_info_oq_coleta_recebe
+  - action: utter_algo_mais
+
+- story: solicita_coleta
+  steps:
+  - intent: info_quem_solicita_coleta
+  - action: utter_info_quem_solicita_coleta
+  - action: utter_algo_mais
+
+- story: quantidade_coleta recebe
+  steps:
+  - intent: info_quantidade_coleta_recebe
+  - action: utter_info_quantidade_coleta_recebe
+  - action: utter_algo_mais
+
+- story: prazo atendimento coleta
+  steps:
+  - intent: info_prazo_coleta
+  - action: utter_info_prazo_coleta
+  - action: utter_algo_mais

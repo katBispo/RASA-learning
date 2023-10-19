@@ -40,7 +40,7 @@ responses:
   utter_info_oq_coleta_recebe:
   - text: "A coleta seletiva programada realizada pela Prefeitura de São Luís recebe resíduos \ndomésticos que podem ser reciclados.\n São eles: papel e papelão limpo, plástico, vidro e metal"
 
-  utter_ info_quem_solicita_coleta:
+  utter_info_quem_solicita_coleta:
   - text: " O serviço é exclusivo para os cidadãos, às empresas e demais grandes geradores devem entregar \nseu material reciclável diretamente às cooperativas de catadores de materiais recicláveis \ncadastradas na Prefeitura."
 
   utter_info_quantidade_coleta_recebe:

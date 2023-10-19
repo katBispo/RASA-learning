@@ -71,6 +71,28 @@ nlu:
     - quando a coleta vem
     - qual o prazo da coleta
     - qual dia a coleta vem buscar
-  
 
+- intent: quem_pode_realizar_denuncia
+  examples: |
+    - quando fazer a denuncia
+    - quem pode fazer a denuncia
 
+- intent: oq_eh_denuncia
+  examples: |
+    - oq eh a denuncia
+    - pra que serve a denuncia
+    
+- intent: como_realizar_denuncia
+  examples: |
+    - como realizar denuncia
+    - onde posso fazer a denuncia
+
+- intent: denuncia_eh_anonima
+  examples: |
+   - a denuncia eh de forma anonima
+   - saberão que eu denunciei
+
+- intent: oq_denunciar
+  examples: |
+   - oq denunciar
+   - quando denunciar

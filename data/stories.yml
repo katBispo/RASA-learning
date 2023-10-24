@@ -55,3 +55,27 @@ stories:
   - intent: info_prazo_coleta
   - action: utter_info_prazo_coleta
   - action: utter_algo_mais
+
+- story: quem realiza denuncia
+  steps:
+  - intent: quem_pode_realizar_denuncia
+  - action: utter_quem_pode_realizar_denuncia
+  - action: utter_algo_mais
+
+- story: explicacao denuncia
+  steps:
+  - intent: oq_eh_denuncia
+  - action: utter_oq_eh_denuncia
+  - action: utter_algo_mais
+
+- story: denuncia anonima
+  steps:
+  - intent: denuncia_eh_anonima
+  - action: utter_denuncia_eh_anonima
+  - action: utter_algo_mais
+
+- story: oque denunciar
+  steps:
+  - intent: oq_denunciar
+  - action: utter_oq_denunciar
+  - action: utter_algo_mais
